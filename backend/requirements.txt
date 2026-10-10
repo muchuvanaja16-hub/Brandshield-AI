@@ -1,0 +1,7 @@
+# Phase 2 target stack: Flask + SQLAlchemy.
+# The preserved FastAPI tree no longer runs as the main entry, so we keep
+# SQLAlchemy + security deps and swap in Flask.
+Flask>=3.0,<4.0
+SQLAlchemy>=2.0,<3.0
+python-dotenv>=1.0,<2.0
+pytest>=8.0,<10.0
